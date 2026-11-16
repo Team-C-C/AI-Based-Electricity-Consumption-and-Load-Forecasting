@@ -36,11 +36,9 @@ Electricity utilities and municipalities have to match supply to demand at all t
 
 #### **Requirements**
 
-Python 3, historical consumption data, forecasting models, evaluation measures and a chatbot interface.
-
-Libraries: pandas, NumPy, scikit-learn, statsmodels, TensorFlow with Keras, joblib and matplotlib.
-
-One household dataset (2006 to 2010 from a house near Paris, France) might not be representative of South African homes.
+* Python 3, historical consumption data, forecasting models, evaluation measures and a chatbot interface.
+* Libraries: pandas, NumPy, scikit-learn, statsmodels, TensorFlow with Keras, joblib and matplotlib.
+* One household dataset (2006 to 2010 from a house near Paris, France) might not be representative of South African homes.
 
 
 
@@ -48,13 +46,10 @@ One household dataset (2006 to 2010 from a house near Paris, France) might not b
 
 
 
-One household dataset (2006-2010) wouldn't necessarily be representative of all households.
-
-Limited computing power for training deep learning models.
-
-There's no live smart meter feed in the prototype.
-
-Weather is not included unless it is added as an extra feature
+* One household dataset (2006-2010) wouldn't necessarily be representative of all households.
+* Limited computing power for training deep learning models.
+* There's no live smart meter feed in the prototype.
+* Weather is not included unless it is added as an extra feature
 
 
 
@@ -89,7 +84,27 @@ Weather is not included unless it is added as an extra feature
 
 
 
-&#x09;
+### **3. Problem Definition**
+
+
+
+#### **What is the problem?**
+
+Households in the developing countries cannot see or predict how much electricity they will use, or when. As a result, they run heavy appliances such as geysers, stoves and washing machines etc) during peak periods when the tariffs are highest and the grid is under the most stress.The bills are completely unpredictable and households get no advice on how to reduce them. The utilities and municipalities themselves have no forecasting at the household or neighbourhood level.The peaks in demand therefore simply overload the transformers and lines and that's what leads to outages and load shedding. It's all reactive rather than proactive.There is smart meter data available but it is not being used to generate forecasts or indeed simple advice that the average person can take on board.The fundamental problem is the absence of accurate, accessible electricity demand forecasting that would allow households to manage their consumption and would allow the energy providers to balance supply and demand.
+
+
+
+
+
+#### **How relevant is it to the theme?**
+
+The problem is directly relevant to the theme, an AI solution for industries. It sits in the energy industry, and artificial intelligence turns smart meter data into hourly demand forecasts and advice.
+
+
+
+#### **How will solving the problem using artificial intelligence benefit the local municipality?**
+
+Households are the main users. The benefit to a municipality is that you get the benefit of the model when it's applied across a large number of homes (e.g. using smart meter data at the neighbourhood level). The hourly forecast tells you when and where demand will peak so the municipality can plan supply, avoid transformer and line overloading and reduce emergency purchase costs. Shifting the household load away from peak times reduces the stress on the grid which in turn reduces the number of outages and the need for load shedding. The end result is that the residents save money which in turn improves service satisfaction and supports local economic development.
 
 &#x09;
 
@@ -97,9 +112,9 @@ Weather is not included unless it is added as an extra feature
 
 &#x09;
 
-
-
 &#x09;
 
 
+
+&#x09;
 
